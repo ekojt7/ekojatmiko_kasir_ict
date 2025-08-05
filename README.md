@@ -34,6 +34,7 @@ Semua endpoint menggunakan format JSON.
   "nama_barang": "Mouse Wireless",
   "harga": 55000
 }
+```
 
 #### Cek Barang Berdasarkan ID
 **Endpoint:**  
@@ -51,3 +52,4 @@ Semua endpoint menggunakan format JSON.
         "updated_at": "2025-08-04T13:18:31.000000Z"
     }
 }
+```
