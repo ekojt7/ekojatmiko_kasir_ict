@@ -27,10 +27,27 @@ Semua endpoint menggunakan format JSON.
 **Endpoint:**  
 `POST /api/barang/tambah`
 
-**Body (JSON):**
+**Contoh Input Body (JSON):**
 ```json
 {
   "kode_barang": "M0008",
   "nama_barang": "Mouse Wireless",
   "harga": 55000
+}
+
+#### Cek Barang Berdasarkan ID
+**Endpoint:**  
+`GET /api/barang/1
+
+**Contoh Respon Sukses(JSON):**
+```json
+{
+    "data": {
+        "id": 1,
+        "kode_barang": "L00001",
+        "nama_barang": "Lenovo ThinkPad T410",
+        "harga": 2500000,
+        "created_at": "2025-08-04T13:18:31.000000Z",
+        "updated_at": "2025-08-04T13:18:31.000000Z"
+    }
 }
