@@ -2,6 +2,8 @@
 
 Aplikasi Point of Sales (POS) sederhana berbasis Laravel. Aplikasi ini mencakup fitur untuk melakukan transaksi penjualan, mengelola daftar barang, serta menyediakan API untuk integrasi eksternal.
 
+Database yang sudah ada isi ada di root folder dengan nama : ekojatmiko_kasir.sql
+
 ## 📦 Fitur Utama
 
 ### Web (GUI)
@@ -36,9 +38,10 @@ Semua endpoint menggunakan format JSON.
 }
 ```
 
+
 #### Cek Barang Berdasarkan ID
 **Endpoint:**  
-`GET /api/barang/1
+GET /api/barang/1
 
 **Contoh Respon Sukses(JSON):**
 ```json
@@ -51,5 +54,58 @@ Semua endpoint menggunakan format JSON.
         "created_at": "2025-08-04T13:18:31.000000Z",
         "updated_at": "2025-08-04T13:18:31.000000Z"
     }
+}
+```
+
+#### Tampilkan Semua List Data Barang
+**Endpoint:**  
+GET /api/barang
+
+**Contoh Respon Sukses(JSON):**
+```json
+{
+    "status": "success",
+    "data": [
+        {
+            "id": 1,
+            "kode_barang": "L00001",
+            "nama_barang": "Lenovo ThinkPad T410",
+            "harga": 2500000,
+            "created_at": "2025-08-04T13:18:31.000000Z",
+            "updated_at": "2025-08-04T13:18:31.000000Z"
+        },
+        {
+            "id": 2,
+            "kode_barang": "M00001",
+            "nama_barang": "Mouse HP Blutooth",
+            "harga": 82000,
+            "created_at": "2025-08-04T13:19:06.000000Z",
+            "updated_at": "2025-08-04T13:19:18.000000Z"
+        },
+        {
+            "id": 4,
+            "kode_barang": "K00001",
+            "nama_barang": "HVS A3a",
+            "harga": 1000,
+            "created_at": "2025-08-04T13:32:08.000000Z",
+            "updated_at": "2025-08-04T14:24:55.000000Z"
+        },
+        {
+            "id": 6,
+            "kode_barang": "K0001",
+            "nama_barang": "Kabel USB Extension",
+            "harga": 125000,
+            "created_at": "2025-08-04T15:00:32.000000Z",
+            "updated_at": "2025-08-04T15:00:32.000000Z"
+        },
+        {
+            "id": 7,
+            "kode_barang": "K0002",
+            "nama_barang": "Kabel LAN",
+            "harga": 25000,
+            "created_at": "2025-08-04T15:03:09.000000Z",
+            "updated_at": "2025-08-04T15:03:09.000000Z"
+        }
+    ]
 }
 ```
