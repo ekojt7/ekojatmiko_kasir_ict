@@ -18,7 +18,7 @@ Database yang sudah ada isi ada di root folder dengan nama : ekojatmiko_kasir.sq
    - Tambah barang baru.
    - Validasi input (kode unik, nama, dan harga tidak kosong).
 
-3. **Modul Daftar Transaksi**   Contoh cara akses : [http://127.0.0.1:8000/barangs](http://127.0.0.1:8000/transaksis)
+3. **Modul Daftar Transaksi**   Contoh cara akses : http://127.0.0.1:8000/transaksis
    - Tampilkan riwayat transaksi.
    - Detail transaksi menampilkan item dan total harga.
 
