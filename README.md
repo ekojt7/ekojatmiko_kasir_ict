@@ -2,7 +2,7 @@
 
 Aplikasi Point of Sales (POS) sederhana berbasis Laravel 11. Aplikasi ini mencakup fitur untuk melakukan transaksi penjualan, mengelola daftar barang, serta menyediakan API untuk integrasi eksternal.
 
-Database yang sudah ada isi ada di root folder dengan nama : ekojatmiko_kasir.sql
+Database yang sudah ada isi ada di root folder dengan nama : ekojatmiko_kasir_ict.sql
 
 ## 📦 Fitur Utama
 
