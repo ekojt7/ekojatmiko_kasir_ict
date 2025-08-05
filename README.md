@@ -7,18 +7,18 @@ Database yang sudah ada isi ada di root folder dengan nama : ekojatmiko_kasir.sq
 ## 📦 Fitur Utama
 
 ### Web (GUI)
-1. **Modul Kasir**  
+1. **Modul Kasir**  Contoh cara akses : http://127.0.0.1:8000/kasir
    - Tambah transaksi baru.
    - Tambah beberapa barang ke transaksi.
    - Jika barang sudah ada, jumlah otomatis ditambah.
    - Menampilkan total barang dan total harga.
    
-2. **Modul Daftar Barang**  
+2. **Modul Daftar Barang**  Contoh cara akses : http://127.0.0.1:8000/barangs
    - Tampilkan semua barang.
    - Tambah barang baru.
    - Validasi input (kode unik, nama, dan harga tidak kosong).
 
-3. **Modul Daftar Transaksi**  
+3. **Modul Daftar Transaksi**   Contoh cara akses : [http://127.0.0.1:8000/barangs](http://127.0.0.1:8000/transaksis)
    - Tampilkan riwayat transaksi.
    - Detail transaksi menampilkan item dan total harga.
 
